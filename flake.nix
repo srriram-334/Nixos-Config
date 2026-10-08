@@ -8,7 +8,7 @@
   };
   outputs = inputs@{ self, nixpkgs, ... }: {
     nixosConfigurations.wandenreich = nixpkgs.lib.nixosSystem {
-      modules = [ ./configuration.nix ];
+      modules = [ ./hosts/wandenreich ];
     };
   };
 }
