@@ -8,6 +8,7 @@
     ./lazygit
     ./terminal
     ./keepassxc
+    ./gh
   ];
 
 }
