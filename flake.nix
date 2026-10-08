@@ -6,7 +6,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-  outputs = inputs@{ self, nixpkgs,home-manger, ... }: {
+  outputs = inputs@{ self, nixpkgs,home-manager, ... }: {
     nixosConfigurations.wandenreich = nixpkgs.lib.nixosSystem {
       modules = [ 
         ./hosts/wandenreich 
