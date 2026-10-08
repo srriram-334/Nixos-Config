@@ -4,7 +4,7 @@
     enable = true;
     settings = {
       init = {
-        defaultbranch = "main";
+        defaultBranch = "main";
       };      
       user = {
         email = "srriram110@gmail.com";
