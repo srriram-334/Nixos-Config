@@ -5,6 +5,7 @@
     ./shell
     ./nh
     ./git
+    ./lazygit
   ];
 
 }
