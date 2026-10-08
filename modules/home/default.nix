@@ -6,6 +6,7 @@
     ./nh
     ./git
     ./lazygit
+    ./terminal
   ];
 
 }
