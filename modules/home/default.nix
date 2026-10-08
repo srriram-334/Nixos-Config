@@ -7,6 +7,7 @@
     ./git
     ./lazygit
     ./terminal
+    ./keepassxc
   ];
 
 }
