@@ -39,7 +39,6 @@
   users.users."zangetsu" = {
     isNormalUser = lib.mkDefault true;
     extraGroups = lib.mkDefault  [ "networkmanager" "wheel" ];
-   ];
   };
 
   # Install firefox.
