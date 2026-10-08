@@ -4,6 +4,7 @@
     ./home.nix
     ./shell
     ./nh
+    ./git
   ];
 
 }
