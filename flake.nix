@@ -7,8 +7,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
   outputs = inputs@{ self, nixpkgs, ... }: {
-    # NOTE: 'nixos' is the default hostname
-    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.wandenreich = nixpkgs.lib.nixosSystem {
       modules = [ ./configuration.nix ];
     };
   };
