@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs,lib, ... }:
 
 {
   imports =
@@ -7,10 +7,10 @@
     ];
 
   # Use the systemd-boot EFI boot loader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.systemd-boot.enable = lib.mkDefault true;
+  boot.loader.efi.canTouchEfiVariables = lib.mkDefault true;
 
-  networking.hostName = "wandenreich"; # Define your hostname.
+  networking.hostName = lib.mkDefault "wandenreich"; # Define your hostname.
 
  # Enable networking
   networking.networkmanager.enable = true;
@@ -37,13 +37,9 @@
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users."zangetsu" = {
-    isNormalUser = true;
-    description = "zangetsu";
-    extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      kdePackages.kate
-    #  thunderbird
-    ];
+    isNormalUser = lib.mkDefault true;
+    extraGroups = lib.mkDefault  [ "networkmanager" "wheel" ];
+   ];
   };
 
   # Install firefox.
