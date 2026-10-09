@@ -1,0 +1,8 @@
+{config,...}:
+{
+  home.file.".config/bspwm/sxhkdrc" = {
+    source =  config.lib.file.mkOutOfStoreSymlink /home/zangetsu/nixos-config/dotfiles/sxhkd/sxhkdrc;
+  };
+
+
+}
