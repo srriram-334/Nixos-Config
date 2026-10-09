@@ -18,6 +18,7 @@
       extraSpecialArgs = { inherit inputs; };
       modules = [
         ./modules/home
+        ./dotfiles
         ];
     };
   };
