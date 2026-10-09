@@ -7,7 +7,12 @@
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm.enable = false;
   services.desktopManager.plasma6.enable =  false;
-
   services.xserver.displayManager.lightdm.enable = false;
+
+  services.xserver.windowManager.bspwm = {
+    enable = true;
+    configFile = null;
+    sxhkd.configFile = null;
+  };
 
 }
