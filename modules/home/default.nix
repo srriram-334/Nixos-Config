@@ -12,6 +12,7 @@
     ./terminal
     ./rofi
     ./sxhkd
+    ./wm
   ];
 
 }
