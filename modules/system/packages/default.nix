@@ -8,6 +8,7 @@
      curl
      git
      lazygit
+     gparted
    ];
 
 
