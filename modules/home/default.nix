@@ -11,8 +11,6 @@
     ./gh
     ./terminal
     ./rofi
-    ./sxhkd
-    ./wm
   ];
 
 }
