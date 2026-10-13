@@ -1,0 +1,9 @@
+{...}:
+{
+
+  services.keyd = {
+    enable = true;
+  };
+
+
+}
