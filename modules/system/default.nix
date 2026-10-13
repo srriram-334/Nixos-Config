@@ -8,5 +8,6 @@
     ./packages
     ./nix
     ./users
+    ./display_protocol
     ];
 }

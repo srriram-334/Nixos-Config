@@ -1,7 +1,8 @@
 {...}:
 {
   imports = [
-    ./alacritty.nix
+  ./bspwm
+  ./sxhkd
   ];
 
 }

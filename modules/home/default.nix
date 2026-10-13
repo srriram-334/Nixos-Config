@@ -9,6 +9,8 @@
     ./terminal
     ./keepassxc
     ./gh
+    ./terminal
+    ./rofi
   ];
 
 }
