@@ -10,5 +10,6 @@
     ./users
     ./display_protocol
     ./services
+    ./virtualisation
     ];
 }
