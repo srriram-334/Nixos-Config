@@ -4,7 +4,7 @@
   virtualisation.podman = {
     enable = true;
     dockerCompat = true;
-    defualtNetwork.settings.dns_enabled = true;
+    defaultNetwork.settings.dns_enabled = true;
   };
   virtualisation.containers.registries.search = ["docker.io" "quay.io" "ghcr.io" "gcr.io"];
 }
