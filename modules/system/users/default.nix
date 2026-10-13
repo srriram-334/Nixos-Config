@@ -4,7 +4,7 @@
   users.users."zangetsu" = {
     isNormalUser = true;
     description = "zangetsu";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "podman" ];
     packages = with pkgs; [
       kdePackages.kate
     #  thunderbird
