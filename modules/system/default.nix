@@ -9,5 +9,6 @@
     ./nix
     ./users
     ./display_protocol
+    ./services
     ];
 }
