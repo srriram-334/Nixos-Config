@@ -9,6 +9,7 @@
         settings = {
           main = {
             capslock = "overload(meta,esc)";
+            esc = "capslock";
           };
         };
       };
