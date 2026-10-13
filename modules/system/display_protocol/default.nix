@@ -14,5 +14,7 @@
     configFile = null;
     sxhkd.configFile = null;
   };
-
+  services.displayManager.defaultSession = "none+bspwm";
+  services.displayManager.autoLogin.enable = true;
+  services.displayManager.autoLogin.user = "zangetsu";
 }
