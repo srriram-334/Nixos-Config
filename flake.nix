@@ -5,12 +5,14 @@
       url = "github:nix-community/home-manager/release-26.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
   };
-  outputs = inputs@{ self, nixpkgs,home-manager, ... }: {
+  outputs = inputs@{ self, nixpkgs,home-manager,nix-flatpak, ... }: {
     nixosConfigurations.wandenreich = nixpkgs.lib.nixosSystem {
       modules = [ 
         ./hosts/wandenreich 
         ./modules/system
+        nix-flatpak.nixosModules.nix-flatpak
         ];
     };
     homeConfigurations.zangetsu = home-manager.lib.homeManagerConfiguration {
