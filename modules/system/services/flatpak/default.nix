@@ -18,6 +18,7 @@
     "com.usebottles.bottles"
     "org.freedownloadmanager.Manager"
     "com.github.tchx84.Flatseal" 
+    "org.freedesktop.Platform.VulkanLayer.MangoHud//25.08"
     ];
   };
 
