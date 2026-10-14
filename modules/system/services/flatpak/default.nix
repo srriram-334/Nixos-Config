@@ -14,6 +14,11 @@
 
   services.flatpak = {
     enable = true;
+    packages = [
+    "com.usebottles.bottles"
+    "org.freedownloadmanager.Manager"
+    "com.github.tchx84.Flatseal" 
+    ];
   };
 
 }
