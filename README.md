@@ -5,4 +5,4 @@
 - [ ] add config.lib.file.mkOutOfStoreSymlink in docs 
 - [ ] add about how removing the user setting in gh module solved the x11-ssh-askpass issue in lazygit as gh was unable to login properly when used gh auth login due to the setting (commit starts with a73fa72d)
 - [ ] add about how xdg.portal settings are reqruired to be set for flatpak to be used in bspwm
-
+- [ ] after installing fdm set file system permissions in flatseal and restart for it to use the whole space instead of just 5gb default
