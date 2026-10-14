@@ -9,6 +9,7 @@
      git
      lazygit
      gparted
+     kdePackages.dolphin
    ];
 
 
