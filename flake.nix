@@ -12,6 +12,7 @@
       modules = [ 
         ./hosts/wandenreich 
         ./modules/system
+        nix-flatpak.nixosModules.nix-flatpak
         ];
     };
     homeConfigurations.zangetsu = home-manager.lib.homeManagerConfiguration {
