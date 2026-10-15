@@ -3,6 +3,7 @@
   imports = [
   ./keyd
   ./flatpak
+  ./tailscale
   ];
 
 
